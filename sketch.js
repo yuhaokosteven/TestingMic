@@ -21,6 +21,6 @@ function draw() {
 
   // Draw an ellipse with height based on volume
   var h = map(vol, 0, 1, height, 0);
-  // console.log(h);
+  console.log(h);
   ellipse(width / 2, h - 25, 50, 50);
 }
