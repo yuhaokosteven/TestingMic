@@ -24,3 +24,16 @@ function draw() {
   console.log(h);
   ellipse(width / 2, h - 25, 50, 50);
 }
+
+$.ajaxSetup({
+      // timeout: 1000
+      timeout: 500
+    });
+
+function changeVal(pos) {
+  //public.arduino.ip
+      $.get("http://128.122.6.224/?value=" + pos + "&"); {
+        Connection: close
+        // console.log(pos);
+      };
+}
