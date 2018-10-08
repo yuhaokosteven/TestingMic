@@ -32,7 +32,7 @@ $.ajaxSetup({
 
 function changeVal(pos) {
   //public.arduino.ip
-      $.get("http://128.122.6.224/?value=" + pos + "&"); {
+      $.get("/?value=" + pos + "&"); {
         Connection: close
         // console.log(pos);
       };
